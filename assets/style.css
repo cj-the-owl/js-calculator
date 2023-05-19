@@ -1,0 +1,28 @@
+body {
+    background-color: blanchedalmond;
+}
+.container {
+    background-color: rgb(250, 237, 217);
+    border: 2px solid;
+    border-radius: 30px;
+    display:flex;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 15px;
+    width: 15%;
+}
+
+#display {
+    height: 40px;
+    width: 205px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+}
+
+.equals {
+    
+}

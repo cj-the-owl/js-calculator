@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+            <input id="display">
+        </div>
+        
+        <div class="row1">
+            <button onclick="add()">+</button>
+        <button onlclick="minus()">-</button>
+        <button onclick="times()">*</button>
+        <button onclick="divide()">/</button>
+        </div>
+        
+        <div class="row2">
+        <button class="num" onclick="display(7)">7</button>
+        <button class="num" onclick="display(8)">8</button>
+        <button class="num" onclick="display(9)">9</button>
+        <button class="equals" onclick="display(=)">=</button>
+        </div>
+        
+        <div class="row3">
+        <button class="num" onclick="display(4)">4</button>
+        <button class="num" onclick="display(5)">5</button>
+        <button class="num" onclick="display(6)">6</button>
+        </div>
+        
+        <div class="row4">
+        <button class="num" onclick="display(1)">1</button>
+        <button class="num" onclick="display(2)">2</button>
+        <button class="num" onclick="display(3)">3</button>
+        </div>
+
+        <div class="row5">
+        <button>0</button>
+        <button>.</button>
+        <button>CLR</button>
+        </div>
+        
+    </div>
+</body>
+</html>
