@@ -6,7 +6,7 @@ function display(val) {
 function equals() {
     let x = document.getElementById('answer').value
     let y = eval(x);
-    document.getElementById('answer').value = y
+    document.getElementById('answer').value = y.toFixed(2)
     return y
 }
 
