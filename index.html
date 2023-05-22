@@ -9,42 +9,42 @@
 </head>
 <body>
     <div class="container">
-        <div class="display">
-            <input id="display">
-        </div>
-        
-        <div class="row1">
-            <button onclick="add()">+</button>
-        <button onlclick="minus()">-</button>
-        <button onclick="times()">*</button>
-        <button onclick="divide()">/</button>
-        </div>
-        
-        <div class="row2">
-        <button class="num" onclick="display(7)">7</button>
-        <button class="num" onclick="display(8)">8</button>
-        <button class="num" onclick="display(9)">9</button>
-        <button class="equals" onclick="display(=)">=</button>
-        </div>
-        
-        <div class="row3">
-        <button class="num" onclick="display(4)">4</button>
-        <button class="num" onclick="display(5)">5</button>
-        <button class="num" onclick="display(6)">6</button>
-        </div>
-        
-        <div class="row4">
-        <button class="num" onclick="display(1)">1</button>
-        <button class="num" onclick="display(2)">2</button>
-        <button class="num" onclick="display(3)">3</button>
+        <div class="screen">
+            <input type="text" id="answer">
         </div>
 
-        <div class="row5">
-        <button>0</button>
-        <button>.</button>
-        <button>CLR</button>
+        <div class="row1">
+        <input type='button' value='AC' onclick="AC()" class="ops">
+        <input type='button' value='.' onclick="display('.')" class="ops">
+        <input type='button' value='/' onclick="display('/')" class="ops">
+        <input type='button' value='+' onclick="display('+')" class="ops">
         </div>
-        
+
+        <div class="row2">
+        <input type='button' value='7' onclick="display('7')" class="button">
+        <input type='button' value='8' onclick="display('8')" class="button">
+        <input type='button' value='9' onclick="display('9')" class="button">
+        <input type='button' value='*' onclick="display('*')" class="ops">
+        </div>
+
+        <div class="row3">
+        <input type='button' value='4' onclick="display('4')" class="button">
+        <input type='button' value='5' onclick="display('5')" class="button">
+        <input type='button' value='6' onclick="display('6')" class="button">
+        <input type='button' value='-' onclick="display('-')" class="ops">
+        </div>
+
+        <div class="row4">
+            <input type='button' value='1' onclick="display('1')" class="button">
+            <input type='button' value='2' onclick="display('2')" class="button">
+        <input type='button' value='3' onclick="display('3')" class="button">
+        <input type='button' value='0' onclick="display('0')" class="button">
+        </div>
+
+        <div class="equal-sign">
+            <input type='button' value='=' onclick="equals()" id="equal" class="button">
+        </div>
+        <script src="./script/script.js"></script>
     </div>
 </body>
 </html>
